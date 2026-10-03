@@ -1,0 +1,652 @@
+[
+  {
+    "model": "myapp.item",
+    "pk": 1,
+    "fields": {
+      "item_name": "Toyota Camry",
+      "item_description": "Sedan with 2.5L engine, 203 hp, smooth ride",
+      "item_price": "25000.00",
+      "item_image": "https://images.autox.com/uploads/2024/12/Toyota-Camry-Emotional-Red-500x261.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 2,
+    "fields": {
+      "item_name": "Honda Civic",
+      "item_description": "Compact car with 1.5L turbo, 174 hp, excellent fuel economy",
+      "item_price": "22000.00",
+      "item_image": "https://freepngimg.com/download/honda/32503-1-honda-civic-photo.png",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 3,
+    "fields": {
+      "item_name": "Ford Mustang",
+      "item_description": "Sports car with 5.0L V8, 450 hp, iconic muscle",
+      "item_price": "45000.00",
+      "item_image": "https://cimg0.ibsrv.net/ibimg/hgm/1936x1089-1/100/600/ford-mustang_100600432.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 4,
+    "fields": {
+      "item_name": "Tesla Model 3",
+      "item_description": "Electric sedan with 300+ mile range, quick acceleration",
+      "item_price": "40000.00",
+      "item_image": "https://images.overdrive.in/wp-content/uploads/2023/09/Untitled-design-59-900x506.png",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 5,
+    "fields": {
+      "item_name": "BMW 3 Series",
+      "item_description": "Luxury sedan with 2.0L turbo, 255 hp, rear‑wheel drive",
+      "item_price": "45000.00",
+      "item_image": "https://cdn-s3.autocarindia.com/legacy/cdni/ExtraImages/20220518115449_BMW%203%20Series%20facelift%209.jpg?w=728&q=75&fm=auto",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 6,
+    "fields": {
+      "item_name": "Mercedes C‑Class",
+      "item_description": "Premium sedan with 2.0L turbo, 255 hp, luxurious interior",
+      "item_price": "44000.00",
+      "item_image": "https://media.ed.edmunds-media.com/mercedes-benz/c-class/2026/oem/2026_mercedes-benz_c-class_sedan_amg-c-43_fq_oem_1_600.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 7,
+    "fields": {
+      "item_name": "Audi A4",
+      "item_description": "Luxury sedan with 2.0L turbo, 201 hp, Quattro all‑wheel drive",
+      "item_price": "40000.00",
+      "item_image": "https://bi.im-g.pl/im/e4/a5/18/z25843940Q,Audi-A4-B8.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 8,
+    "fields": {
+      "item_name": "Nissan Altima",
+      "item_description": "Midsize sedan with 2.5L engine, 188 hp, comfortable ride",
+      "item_price": "26000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBADMXq2PJhNPklMR_FQ6z2zME7X4HG1jNe5zxaFp74Bi8xAdnNrLT1VI&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 9,
+    "fields": {
+      "item_name": "Hyundai Elantra",
+      "item_description": "Compact sedan with 2.0L, 147 hp, great value and tech",
+      "item_price": "20000.00",
+      "item_image": "https://hips.hearstapps.com/mtg-prod/66a9771652c45400082bd012/21-2025-hyundai-elantra-n-front-view.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 10,
+    "fields": {
+      "item_name": "Kia Telluride",
+      "item_description": "SUV with 3.8L V6, 291 hp, spacious 3‑row seating",
+      "item_price": "35000.00",
+      "item_image": "https://hips.hearstapps.com/hmg-prod/images/9eb6e777-0e71-406e-bb1a-ef5d95aa0418.jpg?crop=0.630xw:0.630xh;0.192xw,0.259xh&resize=980:*",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 11,
+    "fields": {
+      "item_name": "Mazda CX‑5",
+      "item_description": "Crossover with 2.5L engine, 187 hp, sporty handling",
+      "item_price": "28000.00",
+      "item_image": "https://di-uploads-pod5.dealerinspire.com/modernmazda/uploads/2025/09/2026-mazda-cx-5-exterior-pr-101.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 12,
+    "fields": {
+      "item_name": "Subaru Outback",
+      "item_description": "Wagon with 2.5L, 182 hp, standard all‑wheel drive and rugged design",
+      "item_price": "30000.00",
+      "item_image": "https://hips.hearstapps.com/mtg-prod/67febea523ccd4000896c4b6/2026-subaru-outback-31.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 13,
+    "fields": {
+      "item_name": "Lexus RX",
+      "item_description": "Luxury SUV with 3.5L V6, 295 hp, smooth and quiet cabin",
+      "item_price": "48000.00",
+      "item_image": "https://di-uploads-pod29.dealerinspire.com/treasurecoastlexus/uploads/2024/04/Lexus-RX-Gallery-7-desktop-1440x811-LEX-RXV-MY23-0002-1024x577.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 14,
+    "fields": {
+      "item_name": "Volvo XC90",
+      "item_description": "Luxury SUV with 2.0L turbo, 250 hp, safety and Scandinavian design",
+      "item_price": "55000.00",
+      "item_image": "https://cdn-s3.autocarindia.com/legacy/cdni/mmv_images/colors/20250718034226_Volvo_XC90_Crystal_White[1].png?w=728&q=75&fm=auto",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 15,
+    "fields": {
+      "item_name": "Porsche 911",
+      "item_description": "Sports car with 3.0L flat‑6, 379 hp, iconic rear‑engine layout",
+      "item_price": "110000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38Gel_3rwU5CIj8ynNQ0oFFO1REV3t4GlweHNwWZaGg&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 16,
+    "fields": {
+      "item_name": "Jaguar F‑Pace",
+      "item_description": "Performance SUV with 3.0L V6, 340 hp, agile handling",
+      "item_price": "52000.00",
+      "item_image": "https://media.cdn-jaguarlandrover.com/api/v2/images/92035/w/1000.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 17,
+    "fields": {
+      "item_name": "Land Rover Defender",
+      "item_description": "Off‑road SUV with 3.0L, 395 hp, rugged and luxurious",
+      "item_price": "60000.00",
+      "item_image": "https://www.theglobeandmail.com/resizer/AXxAUM5CKFGvveo5fO7cHPpfC4Y=/arc-anglerfish-tgam-prod-tgam/public/52W7W6HSINDLZLUTM3CLAY5AJE.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 18,
+    "fields": {
+      "item_name": "Dodge Challenger",
+      "item_description": "Muscle car with 5.7L V8, 375 hp, retro styling",
+      "item_price": "40000.00",
+      "item_image": "https://cdn.dealeraccelerate.com/cam/34/709/471491/1920x1440/1970-dodge-challenger-r-t",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 19,
+    "fields": {
+      "item_name": "Chevrolet Camaro",
+      "item_description": "Sports car with 3.6L V6, 335 hp, sharp handling",
+      "item_price": "35000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVy58pURKWb8YXDbWO1LojcqTO8VAoopuERvS53RnFfIHWJVfHP4fgIfo&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 20,
+    "fields": {
+      "item_name": "Toyota Corolla",
+      "item_description": "Compact sedan with 1.8L, 139 hp, legendary reliability",
+      "item_price": "20000.00",
+      "item_image": "https://imgd.aeplcdn.com/664x374/cw/ec/26588/Toyota-Corolla-Altis-Exterior-92974.jpg?wm=0&q=80",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 21,
+    "fields": {
+      "item_name": "Honda Accord",
+      "item_description": "Midsize sedan with 1.5L turbo, 192 hp, refined and spacious",
+      "item_price": "27000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9VAmGKxcvZQs8iYDY20Fj3vA5NRWJY2h86q5uch2Xu1S2auhF019SOCE&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 22,
+    "fields": {
+      "item_name": "Ford F‑150",
+      "item_description": "Pickup truck with 2.7L V6, 325 hp, best‑selling truck",
+      "item_price": "40000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCZSYXBQy7gef0yijCHjYsFSbwlg5OSa6CMgmk3QpWKGelfFKrO8Dnrs&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 23,
+    "fields": {
+      "item_name": "Ram 1500",
+      "item_description": "Full‑size truck with 3.6L V6, 305 hp, luxurious interior",
+      "item_price": "45000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCexAAQa6dcyc2qx7erZpJ_hfQtruGQ2Mwth0wV2R0qBwY7sYSBzzJzmEh&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 24,
+    "fields": {
+      "item_name": "GMC Sierra",
+      "item_description": "Pickup truck with 5.3L V8, 355 hp, premium features",
+      "item_price": "44000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjtiD37S61P985XvYCbpBItXKCMtr1PNtFkr3ohM_XYHAamGcz0HXXqfGR&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 25,
+    "fields": {
+      "item_name": "Tesla Model Y",
+      "item_description": "Electric SUV with 330‑mile range, roomy and fast",
+      "item_price": "48000.00",
+      "item_image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/201411/model-y-exterior-right-front-three-quarter-5.png?isig=0&q=80",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 26,
+    "fields": {
+      "item_name": "BMW X5",
+      "item_description": "Luxury SUV with 3.0L turbo, 375 hp, sporty and refined",
+      "item_price": "60000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9FHS9nUR8DUVbXS7zXQdz-l4zrOVjxFvYeXFtni3Qnf9Fwp-pxJhiwP8&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 27,
+    "fields": {
+      "item_name": "Mercedes GLE",
+      "item_description": "Luxury SUV with 3.0L turbo, 362 hp, opulent interior",
+      "item_price": "58000.00",
+      "item_image": "https://www.mercedes-benz.co.in/content/dam/india/passengercars/models/gle-suv/gle.jpg?im=Resize,width=1014",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 28,
+    "fields": {
+      "item_name": "Audi Q5",
+      "item_description": "Luxury crossover with 2.0L turbo, 261 hp, standard Quattro",
+      "item_price": "43000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnm5ZAJ4vl-RNfC7ln6No8Wv6yflS9ahvrSb-fdlP6ajVJJNjtRSmNgnVn&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 29,
+    "fields": {
+      "item_name": "Nissan Rogue",
+      "item_description": "Crossover with 2.5L, 181 hp, comfortable and efficient",
+      "item_price": "27000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxF0m7bnHOomgd2WN2i-1jLsbGiMB4PgnlB_mExGhHdPlPpkJ5ArA8VY&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 30,
+    "fields": {
+      "item_name": "Hyundai Tucson",
+      "item_description": "Crossover with 2.5L, 187 hp, bold styling and tech",
+      "item_price": "26000.00",
+      "item_image": "https://hips.hearstapps.com/hmg-prod/images/2025-hyundai-tucson-xrt-pr-103-6849a79b20794.jpg?crop=0.747xw:0.630xh;0.122xw,0.243xh&resize=1200:*",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 31,
+    "fields": {
+      "item_name": "Kia Sportage",
+      "item_description": "Crossover with 2.5L, 187 hp, great value and design",
+      "item_price": "26000.00",
+      "item_image": "https://s7d9.scene7.com/is/image/kiamotors/my26-sportage-ice-exterior-feat-show-exclusive-x-line-and-x-pro-design:S?dpr=on%2C2.625",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 32,
+    "fields": {
+      "item_name": "Mazda3",
+      "item_description": "Hatchback with 2.5L, 186 hp, upscale feel and fun to drive",
+      "item_price": "23000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU5xg3gsni-BN4rJwc424Anl4A3ar5oyRWr2tkga7TdOxaD7u9wP0cD_e6&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 33,
+    "fields": {
+      "item_name": "Subaru Forester",
+      "item_description": "SUV with 2.5L, 182 hp, standard all‑wheel drive and visibility",
+      "item_price": "28000.00",
+      "item_image": "https://hips.hearstapps.com/hmg-prod/images/2026-subaru-forester-wilderness-102-692dcdef8beab.jpg?crop=0.696xw:0.587xh;0.237xw,0.315xh&resize=2048:*",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 34,
+    "fields": {
+      "item_name": "Lexus ES",
+      "item_description": "Luxury sedan with 3.5L V6, 302 hp, ultra‑quiet ride",
+      "item_price": "42000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlb03neTwsuw2hFcJFKTgThmNg0oWz_-25LZ-IkLJywQ&s",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 35,
+    "fields": {
+      "item_name": "Volvo S60",
+      "item_description": "Luxury sedan with 2.0L turbo, 250 hp, safety leader",
+      "item_price": "40000.00",
+      "item_image": "https://images.app.ridemotive.com/orbfi29sp6y982t3os1o78y7kdcr",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 36,
+    "fields": {
+      "item_name": "Porsche Cayenne",
+      "item_description": "Performance SUV with 3.0L turbo, 348 hp, sporty handling",
+      "item_price": "75000.00",
+      "item_image": "https://a.storyblok.com/f/322327/2586x1449/d7faab91f0/cayenne.jpg/m/865x486/smart/filters:format(webp)",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 37,
+    "fields": {
+      "item_name": "Jaguar XF",
+      "item_description": "Luxury sedan with 2.0L, 246 hp, elegant British design",
+      "item_price": "50000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXhK-FdpF6pVVlmEuENi2k1uJscGUZ8dOCvHk_7DxDvtjz-lrn3RLIkQhT&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 38,
+    "fields": {
+      "item_name": "Land Rover Range Rover",
+      "item_description": "Luxury SUV with 4.4L V8, 523 hp, pinnacle of off‑road luxury",
+      "item_price": "100000.00",
+      "item_image": "https://cdn-s3.autocarindia.com/Land-Rover/range-rover/500_1634.JPG?w=640&q=75&fm=auto",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 39,
+    "fields": {
+      "item_name": "Dodge Durango",
+      "item_description": "SUV with 3.6L V6, 295 hp, muscular and roomy",
+      "item_price": "36000.00",
+      "item_image": "https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/2026/durango/vlp/desktop/Dodge-my26-durango-overview-stickycontainer-01-desktop.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 40,
+    "fields": {
+      "item_name": "Chevy Traverse",
+      "item_description": "SUV with 3.6L V6, 310 hp, spacious 3‑row family hauler",
+      "item_price": "34000.00",
+      "item_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2023_Chevrolet_Traverse_LT_3.6_V6_in_Sterling_Gray_Metallic%2C_front_left.jpg/1280px-2023_Chevrolet_Traverse_LT_3.6_V6_in_Sterling_Gray_Metallic%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 41,
+    "fields": {
+      "item_name": "Toyota Highlander",
+      "item_description": "SUV with 3.5L V6, 295 hp, reliable and family‑friendly",
+      "item_price": "38000.00",
+      "item_image": "https://media.ed.edmunds-media.com/toyota/grand-highlander/2026/oem/2026_toyota_grand-highlander_4dr-suv_platinum_fq_oem_1_1280.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 42,
+    "fields": {
+      "item_name": "Honda Pilot",
+      "item_description": "SUV with 3.5L V6, 280 hp, versatile and practical",
+      "item_price": "37000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlzyb55XGuCL1vDlJ1mGsR0728u8q-NBv3fz1cMNhEg&s",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 43,
+    "fields": {
+      "item_name": "Ford Explorer",
+      "item_description": "SUV with 2.3L turbo, 300 hp, off‑road capable and tech‑filled",
+      "item_price": "36000.00",
+      "item_image": "https://cdn.prod.website-files.com/645ba5c617e2c868445e6e83/67edc5fe7c453b409d2fd896_ford-explorer-z-usa.webp",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 44,
+    "fields": {
+      "item_name": "Nissan Pathfinder",
+      "item_description": "SUV with 3.5L V6, 284 hp, rugged and comfortable",
+      "item_price": "35000.00",
+      "item_image": "https://images.cdn.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/nissan-pathfinder-10.jpg?itok=Mj-KNoJt",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 45,
+    "fields": {
+      "item_name": "Hyundai Palisade",
+      "item_description": "SUV with 3.8L V6, 291 hp, premium family hauler",
+      "item_price": "35000.00",
+      "item_image": "https://images.overdrive.in/uploads/2024/12/Untitled-design-2024-12-06T161805.254-2024-12-2d7d71766128a93bc184c82e85cbb7a6-900x506.png",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 46,
+    "fields": {
+      "item_name": "Kia Carnival",
+      "item_description": "Minivan with 3.5L V6, 290 hp, modern and spacious",
+      "item_price": "34000.00",
+      "item_image": "https://media.ed.edmunds-media.com/kia/carnival-hybrid/2026/oem/2026_kia_carnival-hybrid_passenger-minivan_sx-prestige_fq_oem_1_1280.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 47,
+    "fields": {
+      "item_name": "Mazda CX‑9",
+      "item_description": "SUV with 2.5L turbo, 227 hp, premium feel and driving dynamics",
+      "item_price": "34000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7TsmnzbDHHs4EMdxDaqjbyplUf5jl8KhVhC4kstDSjz4Du1WbpJZ_ydb2&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 48,
+    "fields": {
+      "item_name": "Subaru Ascent",
+      "item_description": "SUV with 2.4L turbo, 260 hp, 3‑row seating and all‑wheel drive",
+      "item_price": "34000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYF1fFV-0i-MH2lPopypjDXftql1dVIW8zMtT8aJH4Ixyzo7IzxXxP9CC&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 49,
+    "fields": {
+      "item_name": "Tesla Model S",
+      "item_description": "Electric sedan with 400‑mile range, 670 hp, ultra‑fast",
+      "item_price": "90000.00",
+      "item_image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tesla_Model_S_%28Facelift_ab_04-2016%29_%28cropped%29.jpg",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  },
+  {
+    "model": "myapp.item",
+    "pk": 50,
+    "fields": {
+      "item_name": "BMW i4",
+      "item_description": "Electric sedan with 300‑mile range, 335 hp, sporty luxury",
+      "item_price": "52000.00",
+      "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGrt08mJDDQGbl27l3qRbFePzfvt5v2tL31y0XHuJHPQ&s=10",
+      "is_available": true,
+      "added_by": 1,
+      "added_on": "2026-08-03T07:35:28.776Z"
+    }
+  }
+]

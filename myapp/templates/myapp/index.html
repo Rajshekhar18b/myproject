@@ -1,0 +1,88 @@
+{% extends 'myapp/base.html' %}
+
+{% load custom_filters %}
+
+{% block body %}
+
+{% load cache %}
+
+    <div>
+
+        <!-- Fragment Caching -->
+        {% cache 60 pagination page_obj.number %}
+
+            {% for item in page_obj %} 
+
+                <div class="m-10 flex  w-3/4 mx-auto max-w-4xl gap-6 rounded-lg boder p-4 shadow">
+
+                    <div>
+                        <img class="w-64 h-32 rounded-lg"
+                        src="{{ item.item_image }}"  alt="">
+                    </div>
+
+                    <div class="mx-15">
+
+                        <div class="font-bold">
+                            {{ item.item_name|upper }}
+                        </div>
+                        <div>
+                            <i>
+                                {{ item.item_description|lower|truncatechars:50 }}
+                            </i>
+                        </div>
+                        <div>
+                            Listed at : {{ item.added_on | date:"d M Y"}}
+
+                            <!-- timesince | time:"H:i" -->
+                        </div>
+
+                        <div class="flex items-center gap-3 flex-wrap">
+
+                            <!-- Discounted Price in green -->
+                            <div class="text-green-700 font-bold text-lg">
+                                {{ item.item_price | discount:10 | currency }}
+                            </div>
+
+                            <!-- Original Price with strikethrough -->
+                            <div class="text-gray-500 font-medium">
+                                <span class="line-through">
+                                    {{ item.item_price | floatformat:2 | currency }}
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="flex-shrink-0 ml-auto ">
+                        <a class="bg-red-500 text-white font-bold px-4 py-2 rounded-md"
+                        href="{% url 'myapp:detail' item.id %}">
+                            Details
+                        </a>
+                    </div>
+
+
+                </div>
+
+            {% endfor %}
+
+        {% endcache %}
+
+    </div>
+
+    <div class="flex items-center justify-center space-x-4 py-4 ">
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition">Previous</a>
+        {% endif %}
+
+        <span>
+            Page <b>{{ page_obj.number }}</b> of <b>{{ page_obj.paginator.num_pages }}</b>
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{page_obj.next_page_number}}" class="px-4 py-2 rounded-lg bg-gray-200 text-gray-700 hover:bg-gray-300 transition"> Next</a>
+        {% endif %}
+
+    </div>
+    
+{% endblock %}

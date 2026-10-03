@@ -1,0 +1,6 @@
+{
+    "chat.editor.copilotCli.hideExtensionHost": false,
+    "chat.editor.claude.preferAgentHost": false,
+    "github.copilot.chat.claudeAgent.allowAutoPermissions": true,
+    "editor.inlineSuggest.enabled": false
+}

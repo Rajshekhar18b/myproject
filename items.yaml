@@ -1,0 +1,120 @@
+# Command to store fixture file that extracts data from the database in json file
+
+
+# if --format yaml is omitted, the default format is json
+
+# python manage.py dumpdata myapp.Item --indent 4 >items.json
+
+# python manage.py dumpdata myapp.Item --indent 4 --format yaml > items.yaml
+
+
+-   model: myapp.item
+    pk: 1
+    fields:
+        item_name: Indian Thali
+        item_description: Multiple foods included
+        item_price: '100.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBPmHoZx5r8Xehw16aUaBNsxFGH4c7Bkk0wh8DL11iSZgMZrjVQ8_Udg&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 2
+    fields:
+        item_name: Paratha
+        item_description: Aaloo Paratha
+        item_price: '50.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWRwH4Fk5znIflfz9XnD85koF9Di9JL112_-Mxglj-sw&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 3
+    fields:
+        item_name: Fries
+        item_description: Potato Fries
+        item_price: '70.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQACfZr20ditVm6yCparushPmV3G8nf50_JBgUtx9EHug&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 4
+    fields:
+        item_name: Zunka Bhakar & Thecha
+        item_description: Zunka Bhakar & Thecha
+        item_price: '75.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QgVfXUcUDGouN3o3_kr3NCQXAsU5VCU_C_TYqZXE5g&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 5
+    fields:
+        item_name: Carrot Halwa
+        item_description: Indian Carrot Pudding
+        item_price: '50.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqhw9kUmSfj2ICjP9mY0W6uTPfYx9yOTcipL8yosq2Kg&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 6
+    fields:
+        item_name: Pizza
+        item_description: Margherita Pizza
+        item_price: '99.00'
+        item_image: https://cdn.vectorstock.com/i/500p/97/36/food-smile-logo-cartoon-food-lettering-vector-33389736.jpg
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 07:35:28.776000+00:00
+-   model: myapp.item
+    pk: 7
+    fields:
+        item_name: Chicken Biryani
+        item_description: Chicken Biryani
+        item_price: '120.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYqny9GqzbcCscd5awIcBj9kmFnRHb_FBvYULzqRyvfQ&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 11:42:14.275000+00:00
+-   model: myapp.item
+    pk: 8
+    fields:
+        item_name: Butter Chicken
+        item_description: Butter Chicken
+        item_price: '110.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHDOEn_oGUvZMnlIccRZh-3_1RvEFtHOG4Xh72d8W_cw&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 11:43:03.838000+00:00
+-   model: myapp.item
+    pk: 9
+    fields:
+        item_name: Chicken Tikka
+        item_description: Chicken Tikka
+        item_price: '150.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZB12TgGiXZffMpTTm5vKgdltKeHTlMFYD7HEvj-bMA&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 11:44:29.033000+00:00
+-   model: myapp.item
+    pk: 10
+    fields:
+        item_name: Chicken 65
+        item_description: Chicken 65
+        item_price: '90.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCLCMBqpPbGixWKafeh4aLsKpnUUGImPgc4YpeLwtTog&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 11:45:11.866000+00:00
+-   model: myapp.item
+    pk: 11
+    fields:
+        item_name: Garlic Chicken
+        item_description: Garlic Chicken
+        item_price: '80.00'
+        item_image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAPdNYurTdKjBlpXtT0EHndKCmHKJJCfONHGtdDRjoA&s=10
+        is_available: true
+        added_by: 1
+        added_on: 2026-08-03 11:45:55.381000+00:00

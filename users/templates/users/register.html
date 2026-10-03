@@ -1,0 +1,49 @@
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+
+    <div class="flex flex-col justify-center items-center min-h-screen p-10">
+
+        <h1>Sign Up</h1>
+
+        <form method = "POST" class="shadow-lg space-y-6 p-10 w-96">
+            <!--  -->
+            {% csrf_token %}
+            <!-- Checking non field error -->
+            {% if form.non_field_errors %}
+                <div class="bg-red-500 text-white p-2">
+                    {% for error in form.non_field_errors %}
+                        <p>
+                            {{ error }}
+                        </p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            <!--  -->
+            {% for field in form %}
+
+                <div>
+                    <label for="">{{ field.label }}</label>
+                    <div class="border rounded p-2">
+                        {{ field }}
+                    </div>
+
+                    <!-- If want to check the field errors -->
+                    <!-- {% if field.errors %}
+                        <div class="text-red-500 text-sm mt-1">
+                            {% for error in field.errors %}
+                                <p>{{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %} -->
+                </div>
+
+            {% endfor %}
+
+            <button class="bg-blue-500 text-white px-4 py-2 w-full">
+                Register
+            </button>
+        </form>
+    </div>
+
+{% endblock %}

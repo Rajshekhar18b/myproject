@@ -1,0 +1,45 @@
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+
+    <div class="m-10 flex">
+
+        <div>
+            <img class="w-128 rounded-lg" src="{{ item_list.item_image}}" alt="">
+        </div>
+
+        <div class="mx-16 space-y-5">
+
+            <div class="font-bold text-4xl">
+                {{ item_list.item_name }}
+            </div>
+
+            <div>
+                {{ item_list.item_description }}
+            </div>
+
+            <div class="text-green-700 font-bold text-2xl">
+                ${{ item_list.item_price }}
+            </div>
+
+            <div class="space-x-2">
+
+                {% if item_list.added_by == request.user or request.user.is_superuser %}
+
+                <a class="bg-yellow-500 px-4 py-2 rounded-md font-bold text-white" href="{% url 'myapp:updateItem' item_list.id %}">
+                    Edit
+                </a>
+    
+                <a class="bg-red-500 px-4 py-2 rounded-md font-bold text-white" href="{% url 'myapp:deleteItem' item_list.id %}">
+                    Delete
+                </a>
+
+                {% endif %}
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock %}
