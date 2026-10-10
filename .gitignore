@@ -1,2 +1,3 @@
-/config
+/config/settings.py
 /python.py
+/.env
