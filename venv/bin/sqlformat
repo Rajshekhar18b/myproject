@@ -1,4 +1,4 @@
-#!/home/rajshekhar/Desktop/myproject/venv/bin/python3
+#!/home/user/Desktop/myproject/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

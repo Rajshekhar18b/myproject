@@ -897,3 +897,36 @@ Watching for file changes with StatReloader
 /home/rajshekhar/Desktop/myproject/myapp/views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /myapp/item/
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+Fetching items from the database
+Found 50 items in total
+[2026-10-10T17:32:19.121754+00:00] ID 1 requested item list from 127.0.0.1
+Fetching item with ID:41
+Item found with name Toyota Highlander pricing $38000.00
+[2026-10-10T17:32:24.013189+00:00] ID 1 requested item list from 127.0.0.1
+Fetching item with ID:43
+Item found with name Ford Explorer pricing $36000.00
+Fetching items from the database
+Found 50 items in total
+Watching for file changes with StatReloader
